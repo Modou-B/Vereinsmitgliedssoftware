@@ -1,5 +1,5 @@
 {
-    "CRS.ObjectNamePrefix": "CLUB ",
+    "CRS.ObjectNameSuffix": "BKF",
     "CRS.AlSubFolderName": "None", //unterbindet Reorganize
     "CRS.OnSaveAlFileAction": "Rename", //automatisches Rename bei speichern
     "CRS.ExtensionObjectNamePattern": "<BaseNameShort><Suffix>",
@@ -8,7 +8,8 @@
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
-        "${CodeCop}",
-        "${PerTenantExtensionCop}"
+        "${CodeCop}"
+        // ,
+        // "${PerTenantExtensionCop}"
     ]
 }

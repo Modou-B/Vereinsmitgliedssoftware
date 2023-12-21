@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="Club Manager.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 306743625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Club Member</source>
+          <target>Vereinsmitglied</target>
+          <note from="Developer" annotates="general" priority="2">Vereinsmitglied</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 306743625 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Name</target>
+          <note from="Developer" annotates="general" priority="2">Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 306743625 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+          <note from="Developer" annotates="general" priority="2">Nr.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 797859024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Club Members</source>
+          <target>Vereinsmitglieder</target>
+          <note from="Developer" annotates="general" priority="2">Vereinsmitglieder</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 797859024 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the club member.</source>
+          <target>Gibt den Name des Vereinsmitglieds an.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt den Name des Vereinsmitglieds an.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 797859024 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the No. of the club member.</source>
+          <target>Gibt die Nr. des Vereinsmitglieds an.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt die Nr. des Vereinsmitglieds an.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control No. - Property ToolTip</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

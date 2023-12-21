@@ -1,12 +1,12 @@
 /// <summary>
-/// The table "CLUB Member" stores the informations about Member of the club.
+/// The table "CLUB MemberBKF" stores the informations about Member of the club.
 /// </summary>
-table 50000 "CLUB Member"
+table 50000 "Club MemberBKF"
 {
-    Caption = 'CLUB Member';
+    Caption = 'Club Member', Comment = 'Vereinsmitglied';
     DataClassification = CustomerContent;
-    LookupPageId = "CLUB Members";
-    DrillDownPageId = "CLUB Members";
+    LookupPageId = "Club MembersBKF";
+    DrillDownPageId = "Club MembersBKF";
 
     fields
     {
