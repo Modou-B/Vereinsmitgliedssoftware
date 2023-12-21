@@ -1,0 +1,15 @@
+*.app
+!appSourceCopPackages/*.app
+*.alcache
+*.alpackages
+*.altemplates
+*.g.xlf
+launch.json
+rad.json
+!/BaseApp/*
+.AddInsPackageContent/*
+.AppPackagesContent/*
+.nugetPackages/*
+.snapshots/*
+
+!3rdPartyApps/*.app
