@@ -3,8 +3,10 @@ page 50000 "Club MembersBKF"
     ApplicationArea = All;
     Caption = 'Club Members', Comment = 'Vereinsmitglieder';
     PageType = List;
-    SourceTable = "Club MemberBKF";
     UsageCategory = Lists;
+    SourceTable = "Club MemberBKF";
+    CardPageId = "Club MemberBKF";
+    Editable = false;
 
     layout
     {
@@ -56,6 +58,10 @@ page 50000 "Club MembersBKF"
                 {
                     ToolTip = 'Specifies the value of the No. Series field.', Comment = 'Nummerserie';
                     Visible = false;
+                }
+                field(Reminder; Rec.Reminder)
+                {
+                    ToolTip = 'Specifies the value of the Reminder field.', Comment = 'Erinnerung';
                 }
             }
         }
