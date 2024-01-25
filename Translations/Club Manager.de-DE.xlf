@@ -21,6 +21,30 @@
           <note from="Developer" annotates="general" priority="2">Nr.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3354627980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Club Setup</source>
+          <target>Verein Einrichtung</target>
+          <note from="Developer" annotates="general" priority="2">Verein Einrichtung</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club SetupBKF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3354627980 - Field 4070895552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Club Member Nos.</source>
+          <target>Vereinsmitglied Nummernserie</target>
+          <note from="Developer" annotates="general" priority="2">Vereinsmitglied Nummernserie</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club SetupBKF - Field Club Member Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3354627980 - Field 203349607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy Club Member Name to Entry</source>
+          <target>Vereinsmitgliedsname in Posten kopieren</target>
+          <note from="Developer" annotates="general" priority="2">Vereinsmitgliedsname in Posten kopieren</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club SetupBKF - Field Copy Club Member Name to Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3354627980 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Primärschlüssel</target>
+          <note from="Developer" annotates="general" priority="2">Primärschlüssel</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club SetupBKF - Field Primary Key - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 797859024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Club Members</source>
           <target>Vereinsmitglieder</target>
@@ -38,6 +62,36 @@
           <target>Gibt die Nr. des Vereinsmitglieds an.</target>
           <note from="Developer" annotates="general" priority="2">Gibt die Nr. des Vereinsmitglieds an.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3354627980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Club Setup</source>
+          <target>Verein Einrichtung</target>
+          <note from="Developer" annotates="general" priority="2">Verein Einrichtung</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club SetupBKF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3354627980 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+          <note from="Developer" annotates="general" priority="2">Allgemein</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club SetupBKF - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3354627980 - Control 203349607 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the name of the club member should be transferred to the ledger entries.</source>
+          <target>Gibt an, ob der Name vom Vereinsmitglied in die Posten übernommen werden soll.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt an, ob der Name vom Vereinsmitglied in die Posten übernommen werden soll.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club SetupBKF - Control Copy Club Member Name to Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3354627980 - Control 3771739932 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number Series</source>
+          <target>Nummernserien</target>
+          <note from="Developer" annotates="general" priority="2">Nummernserien</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club SetupBKF - Control Number Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3354627980 - Control 4070895552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number serie of the club member.</source>
+          <target>Gibt die Nummernserie des Vereinsmitglieds an.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt die Nummernserie des Vereinsmitglieds an.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club SetupBKF - Control Club Member Nos. - Property ToolTip</note>
         </trans-unit>
       </group>
     </body>
