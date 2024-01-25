@@ -2,10 +2,8 @@ enum 50000 "Income StatusBKF"
 {
     Extensible = true;
 
-    value(0; Student)
-    {
-        Caption = 'Student';
-    }
+    value(0; " ")
+    { }
     value(1; Employed)
     {
         Caption = 'Employed';
@@ -17,5 +15,9 @@ enum 50000 "Income StatusBKF"
     value(3; Retired)
     {
         Caption = 'Retired';
+    }
+    value(4; Student)
+    {
+        Caption = 'Student';
     }
 }

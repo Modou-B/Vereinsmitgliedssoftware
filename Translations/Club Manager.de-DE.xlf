@@ -57,6 +57,30 @@
           <note from="Developer" annotates="general" priority="2">Nr.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 306743625 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <target>Nummernserien</target>
+          <note from="Developer" annotates="general" priority="2">Nummerserie</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 306743625 - Field 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone No.</source>
+          <target>Telefonnr.</target>
+          <note from="Developer" annotates="general" priority="2">Telefonnummer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field Phone No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 306743625 - Field 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Code</source>
+          <target>PLZ</target>
+          <note from="Developer" annotates="general" priority="2">Postleitzahl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 306743625 - Field 87408810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder</source>
+          <target>Erinnerung</target>
+          <note from="Developer" annotates="general" priority="2">Erinnerung</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field Reminder - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3354627980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Club Setup</source>
           <target>Verein Einrichtung</target>
@@ -81,41 +105,23 @@
           <note from="Developer" annotates="general" priority="2">Primärschlüssel</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Club SetupBKF - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 306743625 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No. Series</source>
-          <target>Nummernserien</target>
-          <note from="Developer" annotates="general" priority="2">Nummerserie</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field No. Series - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 306743625 - Field 3986423421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Phone No.</source>
-          <target>Telefonnr.</target>
-          <note from="Developer" annotates="general" priority="2">Telefonnummer</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field Phone No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 306743625 - Field 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post Code</source>
-          <target>PLZ</target>
-          <note from="Developer" annotates="general" priority="2">Postleitzahl</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Club MemberBKF - Field Post Code - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 306743625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clumb Member</source>
           <target>Vereinsmitglied</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 306743625 - Control 3050372732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Communication</source>
+          <target>Kommunikation</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Communication - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 306743625 - Control 1908536694 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Adress field.</source>
           <target>Gibt den Wert des Adresse Feldes an.</target>
           <note from="Developer" annotates="general" priority="2">Adresse</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Adress - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 306743625 - Control 828727563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Birth Day field.</source>
-          <target>Gibt den Wert des Geburtstag Feldes an.</target>
-          <note from="Developer" annotates="general" priority="2">Geburtstag</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Birth Day - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 306743625 - Control 714791889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the City field.</source>
@@ -129,17 +135,41 @@
           <note from="Developer" annotates="general" priority="2">E-Mail</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control E-Mail - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 306743625 - Control 1078187065 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Income Status field.</source>
-          <target>Gibt den Wert des Einkommensstatus Feldes an.</target>
-          <note from="Developer" annotates="general" priority="2">Einkommensstatus</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Income Status - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 306743625 - Control 3228716161 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Mobile No. field.</source>
           <target>Gibt den Wert des Handynummer Feldes an.</target>
           <note from="Developer" annotates="general" priority="2">Handynummer</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Mobile No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 306743625 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Phone No. field.</source>
+          <target>Gibt den Wert des Telefonnr. Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Telefonnummer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Phone No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 306743625 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Post Code field.</source>
+          <target>Gibt den Wert des PLZ Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Postleitzahl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 306743625 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 306743625 - Control 828727563 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Birth Day field.</source>
+          <target>Gibt den Wert des Geburtstag Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Geburtstag</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Birth Day - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 306743625 - Control 1078187065 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Income Status field.</source>
+          <target>Gibt den Wert des Einkommensstatus Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Einkommensstatus</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Income Status - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 306743625 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the name of the club member.</source>
@@ -159,17 +189,11 @@
           <note from="Developer" annotates="general" priority="2">Nummerserie</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control No. Series - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 306743625 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Phone No. field.</source>
-          <target>Gibt den Wert des Telefonnr. Feldes an.</target>
-          <note from="Developer" annotates="general" priority="2">Telefonnummer</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Phone No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 306743625 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Post Code field.</source>
-          <target>Gibt den Wert des PLZ Feldes an.</target>
-          <note from="Developer" annotates="general" priority="2">Postleitzahl</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Post Code - Property ToolTip</note>
+        <trans-unit id="Page 306743625 - Control 87408810 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reminder field.</source>
+          <target>Gibt den Wert des Erinnerung Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Erinnerung</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MemberBKF - Control Reminder - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 797859024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Club Members</source>
@@ -225,6 +249,30 @@
           <note from="Developer" annotates="general" priority="2">Gibt die Nr. des Vereinsmitglieds an.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 797859024 - Control 1351594800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. Series field.</source>
+          <target>Gibt den Wert des Nummernserien Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Nummerserie</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control No. Series - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 797859024 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Phone No. field.</source>
+          <target>Gibt den Wert des Telefonnr. Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Telefonnummer</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control Phone No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 797859024 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Post Code field.</source>
+          <target>Gibt den Wert des PLZ Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Postleitzahl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 797859024 - Control 87408810 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reminder field.</source>
+          <target>Gibt den Wert des Erinnerung Feldes an.</target>
+          <note from="Developer" annotates="general" priority="2">Erinnerung</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control Reminder - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3354627980 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Club Setup</source>
           <target>Verein Einrichtung</target>
@@ -255,24 +303,6 @@
           <note from="Developer" annotates="general" priority="2">Gibt die Nummernserie des Vereinsmitglieds an.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Club SetupBKF - Control Club Member Nos. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 797859024 - Control 1351594800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the No. Series field.</source>
-          <target>Gibt den Wert des Nummernserien Feldes an.</target>
-          <note from="Developer" annotates="general" priority="2">Nummerserie</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control No. Series - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 797859024 - Control 3986423421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Phone No. field.</source>
-          <target>Gibt den Wert des Telefonnr. Feldes an.</target>
-          <note from="Developer" annotates="general" priority="2">Telefonnummer</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control Phone No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 797859024 - Control 3660300303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Post Code field.</source>
-          <target>Gibt den Wert des PLZ Feldes an.</target>
-          <note from="Developer" annotates="general" priority="2">Postleitzahl</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Club MembersBKF - Control Post Code - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Enum 3869739188 - EnumValue 860749445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Employed</source>
           <target>Angestellt</target>
@@ -281,7 +311,7 @@
         </trans-unit>
         <trans-unit id="Enum 3869739188 - EnumValue 4131727267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Retired</source>
-          <target>Rente</target>
+          <target>Rentner</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Income StatusBKF - EnumValue Retired - Property Caption</note>
         </trans-unit>
