@@ -54,6 +54,7 @@ page 50002 "Club MemberBKF"
             field("No. Series"; Rec."No. Series")
             {
                 ToolTip = 'Specifies the value of the No. Series field.', Comment = 'Nummerserie';
+                Visible = false;
             }
         }
     }

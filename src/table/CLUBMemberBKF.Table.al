@@ -53,6 +53,7 @@ table 50000 "Club MemberBKF"
         field(11; "No. Series"; Code[20])
         {
             Caption = 'No. Series', Comment = 'Nummerserie';
+            Tablerelation = "No. Series";
         }
     }
     keys
