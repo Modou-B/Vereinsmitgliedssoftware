@@ -1,7 +1,7 @@
 {
     "CRS.ObjectNameSuffix": "BKF",
     "CRS.AlSubFolderName": "None", //unterbindet Reorganize
-    "CRS.OnSaveAlFileAction": "Rename", //automatisches Rename bei speichern
+    // "CRS.OnSaveAlFileAction": "Rename", //automatisches Rename bei speichern
     "CRS.ExtensionObjectNamePattern": "<BaseNameShort><Suffix>",
     "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
