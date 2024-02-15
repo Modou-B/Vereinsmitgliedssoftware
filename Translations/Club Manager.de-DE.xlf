@@ -3,6 +3,36 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="Club Manager.g.xlf">
     <body>
       <group id="body">
+        <trans-unit id="Table 3521537863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Club Member Price Setup</source>
+          <target>Vereinsmitglied Preismatrix</target>
+          <note from="Developer" annotates="general" priority="2">Vereinsmitglied Preismatrix</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club Member Price SetupBKF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3521537863 - Field 1732595399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Age</source>
+          <target>Von Alter</target>
+          <note from="Developer" annotates="general" priority="2">Von Alter</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club Member Price SetupBKF - Field From Age - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3521537863 - Field 1078187065 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Income Status</source>
+          <target>Einkommensstatus</target>
+          <note from="Developer" annotates="general" priority="2">Einkommensstatus</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club Member Price SetupBKF - Field Income Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3521537863 - Field 3635338911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <target>Preis</target>
+          <note from="Developer" annotates="general" priority="2">Preis</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club Member Price SetupBKF - Field Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3521537863 - Field 3196270644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Age</source>
+          <target>Bis Alter</target>
+          <note from="Developer" annotates="general" priority="2">Bis Alter</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Club Member Price SetupBKF - Field To Age - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 306743625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Club Member</source>
           <target>Vereinsmitglied</target>
@@ -104,6 +134,36 @@
           <target>Primärschlüssel</target>
           <note from="Developer" annotates="general" priority="2">Primärschlüssel</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Club SetupBKF - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3521537863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Club Member Price Setup</source>
+          <target>Vereinsmitglied Preismatrix</target>
+          <note from="Developer" annotates="general" priority="2">Vereinsmitglied Preismatrix</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club Member Price SetupBKF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3521537863 - Control 1732595399 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the age from which this price applies.</source>
+          <target>Gibt das Alter an, ab dem dieser Preis gilt.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt das Alter an, ab dem dieser Preis gilt.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club Member Price SetupBKF - Control From Age - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3521537863 - Control 1078187065 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the income status of the club member.</source>
+          <target>Gibt den Einkommensstatus des Vereinsmitglieds an.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt den Einkommensstatus des Vereinsmitglieds an.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club Member Price SetupBKF - Control Income Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3521537863 - Control 3635338911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the price for the club member</source>
+          <target>Gibt den Preis für das Vereinsmitglied an.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt den Preis für das Vereinsmitglied an.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club Member Price SetupBKF - Control Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3521537863 - Control 3196270644 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the age up to which this price applies.</source>
+          <target>Gibt das Alter an, bis zu dem dieser Preis gilt.</target>
+          <note from="Developer" annotates="general" priority="2">Gibt das Alter an, bis zu dem dieser Preis gilt.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Club Member Price SetupBKF - Control To Age - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 306743625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clumb Member</source>
