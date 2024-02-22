@@ -39,10 +39,14 @@ table 50000 "Club MemberBKF"
         field(6; City; Text[30])
         {
             Caption = 'City', Comment = 'Ort';
+            TableRelation = "Post Code".City;
+            ValidateTableRelation = false;
         }
         field(7; "Post Code"; Code[20])
         {
             Caption = 'Post Code', Comment = 'Postleitzahl';
+            TableRelation = "Post Code".Code;
+
         }
         field(8; "Phone No."; Text[30])
         {
@@ -61,9 +65,9 @@ table 50000 "Club MemberBKF"
             Caption = 'No. Series', Comment = 'Nummerserie';
             Tablerelation = "No. Series";
         }
-        field(12; Reminder; Boolean)
+        field(12; Active; Boolean)
         {
-            Caption = 'Reminder', Comment = 'Erinnerung';
+            Caption = 'Active', Comment = 'Aktiv';
         }
     }
 
@@ -79,9 +83,9 @@ table 50000 "Club MemberBKF"
 
     fieldgroups
     {
-        fieldgroup(Dropdown; "No.", Name, "Income Status", Adress, City, "Post Code", Reminder)
+        fieldgroup(Dropdown; "No.", Name, "Income Status", Adress, City, "Post Code", Active)
         { }
-        fieldgroup(Brick; "No.", Name, "Income Status", Adress, City, "Post Code", Reminder)
+        fieldgroup(Brick; "No.", Name, "Income Status", Adress, City, "Post Code", Active)
         { }
     }
 
