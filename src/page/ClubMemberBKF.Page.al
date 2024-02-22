@@ -1,9 +1,7 @@
 page 50002 "Club MemberBKF"
 {
-    Caption = 'Clumb Member';
+    Caption = 'Club Member', Comment = 'Vereinsmitglied';
     PageType = Card;
-    ApplicationArea = All;
-    UsageCategory = Administration;
     SourceTable = "Club MemberBKF";
 
     layout
@@ -12,7 +10,7 @@ page 50002 "Club MemberBKF"
         {
             group(General)
             {
-                Caption = 'General';
+                Caption = 'General', Comment = 'Allgemein';
                 field("No."; Rec."No.")
                 {
                     ToolTip = 'Specifies the No. of the club member.', Comment = 'Gibt die Nr. des Vereinsmitglieds an.';
@@ -25,53 +23,47 @@ page 50002 "Club MemberBKF"
                 }
                 field(Name; Rec.Name)
                 {
-                    ToolTip = 'Specifies the name of the club member.', Comment = 'Gibt den Name des Vereinsmitglieds an.';
+                    ToolTip = 'Specifies the name of the club member.', Comment = 'Gibt den Namen des Vereinsmitglieds an.';
                 }
                 field("Income Status"; Rec."Income Status")
                 {
-                    ToolTip = 'Specifies the value of the Income Status field.', Comment = 'Einkommensstatus';
+                    ToolTip = 'Specifies the value of the Income Status field.', Comment = 'Gibt den Einkommensstatus des Vereinsmitglieds an.';
                 }
                 field("Birth Day"; Rec."Birth Day")
                 {
-                    ToolTip = 'Specifies the value of the Birth Day field.', Comment = 'Geburtstag';
+                    ToolTip = 'Specifies the value of the Birth Day field.', Comment = 'Gibt das Geburtsdatum des Vereinsmitglieds an.';
                 }
-
-                field("No. Series"; Rec."No. Series")
+                field(Active; Rec.Active)
                 {
-                    ToolTip = 'Specifies the value of the No. Series field.', Comment = 'Nummerserie';
-                    Visible = false;
-                }
-                field(Reminder; Rec.Reminder)
-                {
-                    ToolTip = 'Specifies the value of the Reminder field.', Comment = 'Erinnerung';
+                    ToolTip = 'Specifies if the club member is active.', Comment = 'Gibt an, ob das Vereinsmitglied aktiv ist.';
                 }
             }
             group(Communication)
             {
-                Caption = 'Communication';
+                Caption = 'Communication', Comment = 'Kommunikation';
                 field(Adress; Rec.Adress)
                 {
-                    ToolTip = 'Specifies the value of the Adress field.', Comment = 'Adresse';
+                    ToolTip = 'Specifies the value of the Adress field.', Comment = 'Gibt die Adresse des Vereinsmitglieds an.';
                 }
                 field(City; Rec.City)
                 {
-                    ToolTip = 'Specifies the value of the City field.', Comment = 'Ort';
+                    ToolTip = 'Specifies the value of the City field.', Comment = 'Gibt den Ort des Vereinsmitglieds an.';
                 }
                 field("Post Code"; Rec."Post Code")
                 {
-                    ToolTip = 'Specifies the value of the Post Code field.', Comment = 'Postleitzahl';
+                    ToolTip = 'Specifies the value of the Post Code field.', Comment = 'Gibt die Postleitzahl des Vereinsmitglieds an.';
                 }
                 field("Phone No."; Rec."Phone No.")
                 {
-                    ToolTip = 'Specifies the value of the Phone No. field.', Comment = 'Telefonnummer';
+                    ToolTip = 'Specifies the value of the Phone No. field.', Comment = 'Gibt die Telefonnummer des Vereinsmitglieds an.';
                 }
                 field("Mobile No."; Rec."Mobile No.")
                 {
-                    ToolTip = 'Specifies the value of the Mobile No. field.', Comment = 'Handynummer';
+                    ToolTip = 'Specifies the value of the Mobile No. field.', Comment = 'Gibt die Handynummer des Vereinsmitglieds an.';
                 }
                 field("E-Mail"; Rec."E-Mail")
                 {
-                    ToolTip = 'Specifies the value of the E-Mail field.', Comment = 'E-Mail';
+                    ToolTip = 'Specifies the value of the E-Mail field.', Comment = 'Gibt die E-Mail-Adresse des Vereinsmitglieds an.';
                 }
             }
         }
